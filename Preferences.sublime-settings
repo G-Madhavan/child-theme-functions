@@ -1,0 +1,24 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Adaptive.sublime-theme",
+	"font_size": 12,
+	"save_on_focus_lost": true,
+	"highlight_line": true,
+	"line_padding_bottom": 1.5,
+	"line_padding_top": 1.5,
+	"close_windows_when_empty": true,
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns": [
+		".git",
+		"node_modules",
+		".sass-cache",
+		"_site",
+		".idea"
+	],
+	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace", "*.lock"],
+	"wide_caret": true
+}
