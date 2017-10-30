@@ -1,24 +1,57 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Adaptive.sublime-theme",
-	"font_size": 12,
-	"save_on_focus_lost": true,
-	"highlight_line": true,
-	"line_padding_bottom": 1.5,
-	"line_padding_top": 1.5,
+	"always_show_minimap_viewport": true,
 	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
-	"folder_exclude_patterns": [
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*.lock"
+	],
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
 		".git",
 		"node_modules",
 		".sass-cache",
 		"_site",
 		".idea"
 	],
-	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace", "*.lock"],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1.5,
+	"line_padding_top": 1.5,
+	"save_on_focus_lost": true,
+	"theme": "Adaptive.sublime-theme",
 	"wide_caret": true
 }
